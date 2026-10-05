@@ -7,11 +7,11 @@ jobs:
   explore:
     runs-on: ubuntu-latest
     steps:
-      -name: Checkout repository
+      - name: Checkout repository
         uses: actions/checkout@v4
-      -name: Show Current directories
+      - name: Show Current directories
         run: pwd
-      -name: List repository files
+      - name: List repository files
         run: ls -la
-      -name: Show message
+      - name: Show message
        run: echo "Repository files are availble!"
