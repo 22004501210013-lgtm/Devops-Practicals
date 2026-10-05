@@ -14,4 +14,4 @@ jobs:
       - name: List repository files
         run: ls -la
       - name: Show message
-       run: echo "Repository files are availble!"
+        run: echo "Repository files are availble!"
